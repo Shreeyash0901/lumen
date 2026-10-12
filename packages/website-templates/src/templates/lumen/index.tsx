@@ -118,9 +118,12 @@ export function LumenTemplate({ config }: LumenTemplateProps) {
       {/* Floating pill navigation */}
       <header className="lm-header">
         <div className="lm-header-pill">
-          <a href="#home" className="lm-brand">
+          <a href="#home" className="lm-brand" style={{ display: "inline-flex", alignItems: "center", gap: 10 }}>
             {config.branding.logoUrl ? (
-              <img src={config.branding.logoUrl} alt={firm} style={{ maxHeight: 32, objectFit: "contain" }} />
+              <>
+                <img src={config.branding.logoUrl} alt={firm} style={{ maxHeight: 34, width: "auto", objectFit: "contain" }} />
+                <span className="lm-brand-name">{firm}</span>
+              </>
             ) : (
               <>
                 <span className="lm-brand-mark" aria-hidden />

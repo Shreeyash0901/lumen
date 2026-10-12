@@ -415,11 +415,11 @@ export function FortaxTemplate({ config }: FortaxTemplateProps) {
             <h4 className="ft-footer-col-title">Contact</h4>
             <div className="ft-footer-contact-item">
               <MapPin size={16} className="ft-footer-contact-icon" />
-              <span>{config.branding?.address || "101, Business Hub, Financial Center, Mumbai"}</span>
+              <span>{config.branding?.address || SHARED_FIRM_CONTACT.primaryOffice}</span>
             </div>
             <div className="ft-footer-contact-item">
               <Phone size={16} className="ft-footer-contact-icon" />
-              <span>{config.branding?.phone || "+91 (022) 2890-4500"}</span>
+              <span>{config.branding?.phone || SHARED_FIRM_CONTACT.phone}</span>
             </div>
             <div className="ft-footer-contact-item">
               <Mail size={16} className="ft-footer-contact-icon" />

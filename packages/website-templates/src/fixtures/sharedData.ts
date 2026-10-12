@@ -215,9 +215,9 @@ export const SHARED_CLIENT_REVIEWS: SharedClientReview[] = [
 ];
 
 export const SHARED_FIRM_CONTACT: SharedFirmContact = {
-  primaryOffice: "101, Sample Business Hub, Financial District, Mumbai 400001",
-  email: "office@example-cafirm.com",
-  phone: "+91 00000 00000",
+  primaryOffice: "Hermes Kunj, Office No. 21, Building A, 3rd Floor, Mangaldas Road, Pune - 411001",
+  email: "faridpanjwani.co@gmail.com",
+  phone: "+91 9158108771 / +91 7559383286",
   workingHours: "Monday to Saturday: 10:00 AM – 6:30 PM",
   icaiRegistration: "Firm Reg. No. XXXXXX",
 };
